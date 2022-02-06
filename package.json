@@ -1,0 +1,20 @@
+{
+  "name": "first-of-type",
+  "version": "1.0.0",
+  "description": "A utility function that returns the first value in an array or object which matches the specified type.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "author": "Tom Southall",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.0",
+    "eslint": "^8.6.0",
+    "jest": "^27.5.0"
+  }
+}
